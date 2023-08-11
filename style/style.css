@@ -1,0 +1,86 @@
+@import url(fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: RobotoMain;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.nav__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+
+.nav__link {
+    color: #C4C4C4;;
+    font-size: 14px;
+    font-weight: 400;
+}
+.nav__close,
+.nav__menu {
+    display: none;
+}
+.nav__right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+.nav__link:hover {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+.order__btn {
+    padding: 15px 35px;
+    background: #f6762c;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 16px;
+}
+.header {
+    background: url(../img/header__bg.png) center no-repeat;
+    height: 780px;
+}
+.header__content{
+    max-width: 550px;
+    width: 100%;
+    padding: 200px 0 0;
+}
+.header__title {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    font-size: 57.33px;
+    margin-bottom: 37px;
+}
+.header__title-span {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+.header__text {
+    color: #C4C4C4;;
+    margin-bottom: 42px;
+    font-size: 18px;
+    font-weight: 400;
+}
