@@ -137,6 +137,18 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .footer__content{
+        flex-wrap: wrap;
+    }
+    .footer__list2,
+    .footer__list3,
+    .footer__list4{
+        display: none;
+    }
+    .footer{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 @media (max-width: 565px) {
     .meal {
@@ -276,5 +288,9 @@
     .dowland__btn {
         font-size: 14px;
         padding: 10px 15px;
+        }
+        .footer{
+            padding-top: 10px;
+            padding-bottom: 10px;
         }
 }

@@ -300,3 +300,46 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
+.footer{
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #1C1C1C;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.footer__link{
+font-size: 12px;
+line-height: 14px;
+color: #fff;
+opacity: 80%;
+}
+.footer__link:hover{
+    opacity: 100%;
+
+}
+.footer__item:hover{
+    transform:scale(1.1);
+
+}
+.footer__item{
+    transition: 0.3s;
+}
+.footer__title{
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+color: #fff;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer__linksList{
+    display: flex;
+    gap: 10px;
+}
